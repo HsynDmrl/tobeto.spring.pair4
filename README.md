@@ -2,7 +2,9 @@
 
 Bu proje, Spring Boot ve Azure Web App kullanılarak oluşturulmuş bir örnektir. Proje içeriğinde iki ayrı controller bulunmaktadır: `ClientsController` ve `ProductsController`. Her iki controller da aşağıdaki işlemleri destekler: GET, POST, PUT, ve DELETE.
 
-Projenin canlı örneği Azure üzerinde barınmaktadır: [Canlı Demo](https://tobeto1bpair4.azurewebsites.net/)
+GitHub üzerinde açık kaynak olarak barındırılmaktadır. Kaynak kodlarına buradan erişebilir ve projeyi inceleyebilirsiniz. Ayrıca canlı sürümü, Microsoft Azure'ın sunduğu Azure Web App hizmeti ile internet üzerinden kullanılabilir durumdadır.
+
+Projenin çalışan örneğine buradan ulaşabilirsiniz: [Canlı Demo](https://tobeto1bpair4.azurewebsites.net/)
 
 ## Nasıl Kullanılır
 
