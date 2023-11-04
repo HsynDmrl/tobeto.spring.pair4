@@ -43,6 +43,7 @@ public class CategoriesController {
         Category category = inCategoriesList
                 .stream()
                 .filter((p) -> p.getId() == id)
+                .findFirst()
                 .orElseThrow();
         inCategoriesList.remove(category);
         return id+" ID' li kategori silindi.";
