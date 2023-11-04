@@ -39,6 +39,32 @@ API operasyonlarınızı test etmek için Postman kullanabilirsiniz. Proje içer
 
 - **Ürün Getir (GET)**
   - GET     : `https://tobeto1bpair4.azurewebsites.net/api/products/get`
+ 
+## Yeni Controller'lar Eklenmiştir
+
+### Categories
+
+- `GET /api/categories`: Tüm kategorileri listeler.
+- `GET /api/categories/{id}`: Belirli bir kategoriyi ID'ye göre getirir.
+- `POST /api/categories`: Yeni bir kategori ekler.
+- `PUT /api/categories`: Mevcut bir kategoriyi günceller.
+- `DELETE /api/categories/{id}`: Belirli bir kategoriyi siler.
+
+### Persons
+
+- `GET /api/persons`: Tüm kişileri listeler.
+- `GET /api/persons/{id}`: Belirli bir kişiyi ID'ye göre getirir.
+- `POST /api/persons`: Yeni bir kişi ekler.
+- `PUT /api/persons`: Mevcut bir kişiyi günceller.
+- `DELETE /api/persons/{id}`: Belirli bir kişiyi siler.
+
+### Products
+
+- `GET /api/products`: Tüm ürünleri listeler.
+- `GET /api/products/{id}`: Belirli bir ürünü ID'ye göre getirir.
+- `POST /api/products`: Yeni bir ürün ekler.
+- `PUT /api/products`: Mevcut bir ürünü günceller.
+- `DELETE /api/products/{id}`: Belirli bir ürünü siler.
 
 ## Proje Nasıl Çalıştırılır
 
