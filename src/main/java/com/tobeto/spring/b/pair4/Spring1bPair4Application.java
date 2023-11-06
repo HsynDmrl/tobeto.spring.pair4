@@ -47,13 +47,13 @@ class HomeController {
 				"<h3>ProductsController</h3>" +
 				"<ul>" +
 				"<li><strong>Ürün Ekle (POST)</strong></li>" +
-				"<p>POST: `https://tobeto1bpair4.azurewebsites.net/api/products/add`</p>" +
+				"<p>POST: `https://tobeto1bpair4.azurewebsites.net/api/products`</p>" +
 				"<li><strong>Ürün Sil (DELETE)</strong></li>" +
-				"<p>DELETE: `https://tobeto1bpair4.azurewebsites.net/api/products/delete`</p>" +
+				"<p>DELETE: `https://tobeto1bpair4.azurewebsites.net/api/products/{id}`</p>" +
 				"<li><strong>Ürün Güncelle (PUT)</strong></li>" +
-				"<p>PUT: `https://tobeto1bpair4.azurewebsites.net/api/products/update`</p>" +
+				"<p>PUT: `https://tobeto1bpair4.azurewebsites.net/api/products`</p>" +
 				"<li><strong>Ürün Getir (GET)</strong></li>" +
-				"<p>GET: `https://tobeto1bpair4.azurewebsites.net/api/products/get`</p>" +
+				"<p>GET: `https://tobeto1bpair4.azurewebsites.net/api/products{id}`</p>" +
 				"</ul>" +
 				"<h2>Yeni Controller'lar Eklenmiştir</h2>" +
 				"<h3>Categories</h3>" +
